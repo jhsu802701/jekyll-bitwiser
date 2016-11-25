@@ -24,7 +24,7 @@ SURGE HOST SETUP
 1. sh deploy-surge.sh
 2. You probably do not want to stick with the initial name.
    Pick a permanent name for this site, and deploy to this new URL with
-   the "surge" command.
+   the "surge _site/ <new name>" command.
    If this new name is not available, please try a different one.
 3. Customize the section of the deploy-surge.sh script that sets
    the permanent name.
