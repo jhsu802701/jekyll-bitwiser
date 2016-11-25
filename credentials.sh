@@ -58,24 +58,3 @@ git config user.email
 echo '--------------------'
 echo 'git config user.name'
 git config user.name
-
-echo ''
-echo 'If you are using Distelli to deploy this project,'
-echo 'just press Enter to continue.'
-echo 'Otherwise, you may end this script.'
-read CONTINUE
-
-echo '-------------------------------------------------------'
-echo 'wget -qO- https://www.distelli.com/download/client | sh'
-wget -qO- https://www.distelli.com/download/client | sh
-
-echo '------------------------------------------'
-echo 'sudo /usr/local/bin/distelli agent install'
-sudo /usr/local/bin/distelli agent install
-
-echo '------------------------------------'
-echo '/usr/local/bin/distelli agent status'
-/usr/local/bin/distelli agent status
-
-# NOTE: BitBalloon requests credentials only during your first deployment
-# in a given development environment.

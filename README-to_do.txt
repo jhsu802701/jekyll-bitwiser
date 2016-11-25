@@ -19,11 +19,3 @@ BITBALLOON SETUP
 7. git commit -m "deploy.sh"
 8. git push origin master
 
-DISTELLI SETUP
-1. If you have not already done so, create an account at Distelli (https://www.distelli.com/).
-2. Follow the instructions at https://www.distelli.com/docs/tutorials/build-and-deploy-jekyll-website .
-   When you need to enter your Distelli credentials, just enter "sh credentials.sh".
-3. git rm deploy-bitballoon.sh
-4. git add .
-5. git commit -m "Removed deploy script"
-6. git push origin master
