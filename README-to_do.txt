@@ -9,7 +9,7 @@ THINGS TO DO
 
 BITBALLOON SETUP
 1. If you have not already done so, create an account at BitBalloon (https://www.bitballoon.com/).
-2. Create this project at BitBalloon.
+2. Create this application at BitBalloon.
 3. OPTIONAL: Save this project's client key and client secret in KeePassX or other password manager.
 4. Enter "sh deploy-bitballoon.sh" to deploy your project.  
    You will be asked for this project's client key and client secret in the first deployment.
