@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sh build.sh
+
 # Install Surge if necessary.
 if surge --version ; then
   echo '---------------'
@@ -31,7 +33,7 @@ SURGE_NAME='blahblahblah'
 
 # Get time as a UNIX timestamp (seconds elapsed since Jan 1, 1970 0:00 UTC)
 N="$(date +%s)"
-SURGE_NAME="surge${n}" # Default name of database
+SURGE_NAME="surge${N}" # Default name of database
 
 #########################
 # END: SET TEMPORARY NAME
