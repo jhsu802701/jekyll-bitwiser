@@ -7,6 +7,14 @@ THINGS TO DO
 6. git push origin master
 7. Set up the host site.
 
+THINGS TO UPDATE
+* Title: _config.yml (name)
+* Navbar color: _sass/_variables.scss ($nav-back-color)
+* Background color: css/style.scss (html/body background-color)
+* Remove sidebar: _layouts/home.html
+* Index page content: add index.md
+* Background color of posts: css/style.scss (.post/.posts/.unit.single-post-excerpt background-color)
+
 BITBALLOON HOST SETUP
 1. If you have not already done so, create an account at BitBalloon (https://www.bitballoon.com/).
 2. Log into BitBalloon and create this application.
