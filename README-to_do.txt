@@ -14,6 +14,14 @@ THINGS TO UPDATE
 * Remove sidebar: _layouts/home.html
 * Index page content: add index.md
 * Background color of posts: css/style.scss (.post/.posts/.unit.single-post-excerpt background-color)
+* Add site slogan to header
+  * Add the following to css/style.scss after .site-title:
+       .site-slogan{
+	    margin: 0;
+	    text-align: center;
+       }
+  * Add the following to _includes/header.html after header:
+      <p class="site-slogan">Insert slogan here.</p>
 
 BITBALLOON HOST SETUP
 1. If you have not already done so, create an account at BitBalloon (https://www.bitballoon.com/).
