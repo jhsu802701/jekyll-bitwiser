@@ -22,6 +22,7 @@ THINGS TO UPDATE
        }
   * Add the following to _includes/header.html after header:
       <p class="site-slogan">Insert slogan here.</p>
+* Copyright:  _layouts/default.html
 
 BITBALLOON HOST SETUP
 1. If you have not already done so, create an account at BitBalloon (https://www.bitballoon.com/).
